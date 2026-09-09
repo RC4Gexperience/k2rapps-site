@@ -12,7 +12,7 @@ Le site est statique. Le dépôt Git doit avoir `site-k2rapps` comme racine. Dan
 | Build output directory | `.` |
 | Root directory | laisser vide si le dépôt contient directement les fichiers du site |
 
-Le fichier `_redirects` prépare la redirection permanente de `www.k2rapps.fr` vers `k2rapps.fr`.
+La redirection permanente de `www.k2rapps.fr` vers `k2rapps.fr` sera créée dans les règles de redirection Cloudflare après le raccordement du domaine. Elle n’est pas stockée dans le projet, car le flux de déploiement Cloudflare actuel traite le site comme un Worker avec ressources statiques.
 
 ## Audit DNS public réalisé le 9 septembre 2026
 
@@ -45,4 +45,3 @@ Le DNS public contient aussi le TXT `1|www.k2rapps.fr`, utilisé par l’ancien 
 ## Sous-domaine futur
 
 Ne créer aucun enregistrement pour `app.k2rapps.fr` maintenant. Plus tard, il pourra être relié à un projet Cloudflare distinct, sans modifier le site vitrine ni les enregistrements de messagerie.
-

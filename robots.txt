@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://k2rapps.fr/sitemap.xml
+Sitemap: https://lk2x.fr/sitemap.xml

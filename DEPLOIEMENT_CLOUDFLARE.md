@@ -1,4 +1,6 @@
-# Déploiement public — K2R Apps
+# Déploiement public historique — K2R Apps
+
+> **Archive technique.** Cette procédure documente l’installation initiale et ne doit plus être appliquée. L’état actif de LK2X est décrit dans `EXPLOITATION_LK2X.md`.
 
 ## État préparé
 

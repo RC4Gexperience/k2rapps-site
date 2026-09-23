@@ -243,6 +243,20 @@ footer {
 footer a {
   color: var(--muted);
 }
+.legal-page {
+  max-width: 820px;
+  padding-top: 86px;
+  padding-bottom: 96px;
+}
+.legal-page section {
+  margin-top: 42px;
+}
+.legal-page h2 {
+  margin-bottom: 12px;
+}
+.legal-page p {
+  max-width: 760px;
+}
 @media (max-width: 700px) {
   header,
   main,

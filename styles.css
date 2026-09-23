@@ -1242,16 +1242,17 @@ footer span:first-child::after {
 }
 .auto-visual {
   min-height: 430px;
-  background: var(--navy);
+  background: transparent;
   display: grid;
   place-items: center;
-  padding: 40px;
+  padding: 0;
 }
 .auto-visual img {
   width: 100%;
-  max-width: 520px;
+  max-width: none;
   height: auto;
   object-fit: contain;
+  transform: translateY(-72px) scale(1.25);
 }
 .auto-principle {
   margin: 0 -32px;
@@ -1393,7 +1394,7 @@ footer span:first-child::after {
   }
   .auto-visual {
     min-height: 280px;
-    padding: 25px;
+    padding: 0;
     margin: 0 -20px;
     width: calc(100% + 40px);
   }

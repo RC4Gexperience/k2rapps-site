@@ -1231,28 +1231,26 @@ footer span:first-child::after {
 }
 .auto-hero {
   padding: 94px 0 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 58px;
-  align-items: center;
+  display: block;
+  text-align: center;
+}
+.auto-hero-copy {
+  max-width: 850px;
+  margin: 0 auto;
 }
 .auto-hero h1 {
   font-size: clamp(2.8rem, 5.1vw, 4.85rem);
   max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.auto-visual {
-  min-height: 430px;
-  background: transparent;
-  display: grid;
-  place-items: center;
-  padding: 0;
+.auto-hero .lead {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.auto-visual img {
-  width: 100%;
-  max-width: none;
-  height: auto;
-  object-fit: contain;
-  transform: translateY(-72px) scale(1.25);
+.auto-hero .actions {
+  justify-content: center;
 }
 .auto-principle {
   margin: 0 -32px;
@@ -1345,8 +1343,7 @@ footer span:first-child::after {
   margin-bottom: 0;
 }
 @media (max-width: 850px) {
-  .apps-home .apps-hero,
-  .auto-hero {
+  .apps-home .apps-hero {
     grid-template-columns: 1fr;
     gap: 35px;
   }
@@ -1355,11 +1352,6 @@ footer span:first-child::after {
   }
   .product-grid {
     grid-template-columns: 1fr;
-  }
-  .auto-visual {
-    max-width: 650px;
-    width: 100%;
-    min-height: 340px;
   }
   .apps-principles {
     grid-template-columns: 1fr;
@@ -1391,12 +1383,6 @@ footer span:first-child::after {
   }
   .auto-hero {
     padding: 65px 0;
-  }
-  .auto-visual {
-    min-height: 280px;
-    padding: 0;
-    margin: 0 -20px;
-    width: calc(100% + 40px);
   }
   .auto-principle {
     margin-left: -20px;
